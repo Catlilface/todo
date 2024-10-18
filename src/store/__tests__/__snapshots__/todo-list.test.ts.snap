@@ -1,0 +1,76 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Фильтрация с todo > Фильтрация с todo active 1`] = `
+[
+  {
+    "completed": false,
+    "id": "todo-1",
+    "title": "Купить хлеб",
+  },
+  {
+    "completed": false,
+    "id": "todo-2",
+    "title": "Купить молоко",
+  },
+  {
+    "completed": false,
+    "id": "todo-4",
+    "title": "Посмотреть кино",
+  },
+]
+`;
+
+exports[`Фильтрация с todo > Фильтрация с todo all 1`] = `
+[
+  {
+    "completed": false,
+    "id": "todo-1",
+    "title": "Купить хлеб",
+  },
+  {
+    "completed": false,
+    "id": "todo-2",
+    "title": "Купить молоко",
+  },
+  {
+    "completed": true,
+    "id": "todo-3",
+    "title": "Пройти собеседование",
+  },
+  {
+    "completed": false,
+    "id": "todo-4",
+    "title": "Посмотреть кино",
+  },
+  {
+    "completed": true,
+    "id": "todo-5",
+    "title": "Посмотреть в окно",
+  },
+  {
+    "completed": true,
+    "id": "todo-6",
+    "title": "Попасть в просак",
+  },
+]
+`;
+
+exports[`Фильтрация с todo > Фильтрация с todo completed 1`] = `
+[
+  {
+    "completed": true,
+    "id": "todo-3",
+    "title": "Пройти собеседование",
+  },
+  {
+    "completed": true,
+    "id": "todo-5",
+    "title": "Посмотреть в окно",
+  },
+  {
+    "completed": true,
+    "id": "todo-6",
+    "title": "Попасть в просак",
+  },
+]
+`;

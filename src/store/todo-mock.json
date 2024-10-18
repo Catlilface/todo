@@ -1,0 +1,32 @@
+[
+  {
+    "id": "todo-1",
+    "title": "Купить хлеб",
+    "completed": false
+  },
+  {
+    "id": "todo-2",
+    "title": "Купить молоко",
+    "completed": false
+  },
+  {
+    "id": "todo-3",
+    "title": "Пройти собеседование",
+    "completed": true
+  },
+  {
+    "id": "todo-4",
+    "title": "Посмотреть кино",
+    "completed": false
+  },
+  {
+    "id": "todo-5",
+    "title": "Посмотреть в окно",
+    "completed": true
+  },
+  {
+    "id": "todo-6",
+    "title": "Попасть в просак",
+    "completed": true
+  }
+]
